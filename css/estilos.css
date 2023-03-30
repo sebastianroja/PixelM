@@ -65,8 +65,9 @@ nav{
 
 .contenedor{
     position: relative;
-    display: inline-block;
+    display: block;
     text-align: center;
+    margin: auto;
 }
  
 
@@ -78,7 +79,7 @@ nav{
 }
 .contenedor{
 width: 100%;
-max-width: 600px;
+max-width: 1200px;
 text-align: center;
 background-image: url('../img/fondo2.jpg');
 color: aliceblue;
@@ -95,32 +96,31 @@ color: aliceblue;
 
 }
  
-    h2{
-        color: white;
-        
-    }
-h3{
+
+h1,h2,h3,h4,label{
     color: white!important;
 }
-h1{
-    color: white;
-    
-    
+.btn-login{
+   text-decoration-color: white;
+   
 }
+
 
 p{
     color: white;
+    text-align: left;
 }
 
 .nombre-tienda img{
-    background-image: url(../img/fondohead122.jpg);
+
     height: 100px;
-    width: 400px;
+    width: 400px ;
 }
 
 .contenedor h1{
     text-align: center;
     align-items: center;
+    background-color:black
 }
 
 .fondo3 {
@@ -174,7 +174,7 @@ p{
 
 .fondo6{
     background-image: url('../img/fondo33.png');
-    width: 100%;
+    width:100vh;
     height: 100vh;
     border-style: solid ;
     border-color: black;

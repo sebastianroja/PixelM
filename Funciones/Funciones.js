@@ -36,3 +36,17 @@ function validatePassword() {
      return false;
      }
   }
+
+  function validatePhoneNumber() 
+  {
+    var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+    var text=document.getElementById("Numero").value.parseint()
+    if(text.match(re))
+    {
+        return true;
+    }
+    else {
+        alert("solo numeros")
+    }
+    return re.test(text);
+  }
